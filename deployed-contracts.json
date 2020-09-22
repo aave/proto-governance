@@ -1,0 +1,144 @@
+{
+  "LendingPoolAddressesProvider": {
+    "buidlerevm": {
+      "address": "0x7c2C195CD6D34B8F845992d380aADB2730bB9C6F",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0x7c2C195CD6D34B8F845992d380aADB2730bB9C6F",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "coverage": {
+      "address": "0x3d3593927228553b349767ABa68d4fb1514678CB",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "AavePropositionPower": {
+    "buidlerevm": {
+      "address": "0x8858eeB3DfffA017D4BCE9801D340D36Cf895CCf",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0x6D3540a9F1a769bfd91A4A33169a8361aa82dC0F",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "kovan": {
+      "address": "0x55E4C25119fD894a87567423f7AD078D56101015",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x2aCa1f36C1D256011d0daCF6d6414C41B2668EaB",
+      "deployer": "0x85e4A467343c0dc4aDAB74Af84448D9c45D8ae6F"
+    },
+    "main": {
+      "address": "0xED4ec9C8BCE4b765abdD0aAdb545e076BBb18760",
+      "deployer": "0x51F22ac850D29C879367A77D241734AcB276B815"
+    }
+  },
+  "TestVotingAssetA": {
+    "buidlerevm": {
+      "address": "0x0078371BDeDE8aAc7DeBfFf451B74c5EDB385Af7",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0x2ff3F0e437D7843a8100ac876A766081F4c4649D",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "TestVotingAssetB": {
+    "buidlerevm": {
+      "address": "0xf4e77E5Da47AC3125140c470c71cBca77B5c638c",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0xccdf1DECe9c9631081b952Cd51A579E75c33C565",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "AssetVotingWeightProvider": {
+    "buidlerevm": {
+      "address": "0xf784709d2317D872237C4bC22f867d1BAe2913AB",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0xF5E6E6B10E4F2f27DaC1fFdDE83367dE9525552a",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "kovan": {
+      "address": "0x4C64181a9DD614854fF4dB39e9b88C738f728E63",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xF9dac222716Ef740bA9B00a37d3D1fe52394543d",
+      "deployer": "0x85e4A467343c0dc4aDAB74Af84448D9c45D8ae6F"
+    },
+    "main": {
+      "address": "0xEDac33E303ef865151aE73f97610C09cdADC5C7b",
+      "deployer": "0x51F22ac850D29C879367A77D241734AcB276B815"
+    }
+  },
+  "GovernanceParamsProvider": {
+    "buidlerevm": {
+      "address": "0x3619DbE27d7c1e7E91aA738697Ae7Bc5FC3eACA5",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0x7f23223A2FAf869962B38f5eC4aAB7f37454A45e",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "kovan": {
+      "address": "0xee237883bB7A355DDE9B3F74ec5F8C601FD91D9a",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x43333A2A5DAb2Fa94AEDDB72cE253c4dF68e2bD7",
+      "deployer": "0x85e4A467343c0dc4aDAB74Af84448D9c45D8ae6F"
+    },
+    "main": {
+      "address": "0xF3b2c28c7245C49Ea5E6C6DB98026F180b443A06",
+      "deployer": "0x51F22ac850D29C879367A77D241734AcB276B815"
+    }
+  },
+  "ProposalExecutor": {
+    "buidlerevm": {
+      "address": "0x038B86d9d8FAFdd0a02ebd1A476432877b0107C8",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0x1203D1b97BF6E546c00C45Cda035D3010ACe1180",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "AaveProtoGovernance": {
+    "buidlerevm": {
+      "address": "0x500D1d6A4c7D8Ae28240b47c8FCde034D827fD5e",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0xA8083d78B6ABC328b4d3B714F76F384eCC7147e1",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "kovan": {
+      "address": "0xD836b88524309299b2b479Aeb4E5c9802984fABC",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x950af6AFf47e3cd273881F0AAdc0DB9500f9C62d",
+      "deployer": "0x85e4A467343c0dc4aDAB74Af84448D9c45D8ae6F"
+    },
+    "main": {
+      "address": "0xdA8aD436e1dFe962091d86a341e957c6a5168A9d",
+      "deployer": "0x51F22ac850D29C879367A77D241734AcB276B815"
+    }
+  },
+  "FailingProposalExecutor": {
+    "buidlerevm": {
+      "address": "0x1A1FEe7EeD918BD762173e4dc5EfDB8a78C924A8",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "soliditycoverage": {
+      "address": "0x8733AfE8174BA7c04c6CD694bD673294079b7E10",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  }
+}

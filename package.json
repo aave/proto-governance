@@ -1,0 +1,64 @@
+{
+  "name": "proto-governance",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev:coverage": "buidler coverage",
+    "dev:deploy": "buidler dev-deploy",
+    "dev:test": "buidler test",
+    "dev:environment": "npm i && tail -f /dev/null",
+    "kovan:deploy": "npm run buidler-kovan kovan-deploy -- --verify",
+    "ropsten:deploy": "npm run buidler-ropsten ropsten-deploy -- --verify",
+    "main:deploy": "npm run buidler-main main-deploy -- --verify",
+    "compile": "buidler compile",
+    "types-gen": "buidler typechain",
+    "buidler help": "buidler help",
+    "buidler-dev": "buidler",
+    "buidler-kovan": "buidler --network kovan",
+    "buidler-ropsten": "buidler --network ropsten",
+    "buidler-main": "buidler --network main"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.7",
+    "@nomiclabs/buidler-ethers": "^1.3.4",
+    "@nomiclabs/buidler-etherscan": "^2.1.0",
+    "@nomiclabs/buidler-waffle": "^1.3.5",
+    "@openzeppelin/contracts": "^2.4.0",
+    "@types/bs58": "4.0.1",
+    "@types/chai": "^4.2.5",
+    "@types/lowdb": "^1.0.9",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "bignumber.js": "9.0.0",
+    "buidler-typechain": "0.0.5",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^2.5.1",
+    "ethers": "^4.0.48",
+    "ganache-cli": "^6.8.1",
+    "husky": "^4.3.0",
+    "is-ipfs": "^1.0.3",
+    "lodash": "4.17.15",
+    "lowdb": "^1.0.0",
+    "solidity-coverage": "^0.7.10",
+    "tmp-promise": "^3.0.2",
+    "ts-generator": "0.0.8",
+    "ts-node": "^8.5.4",
+    "typechain": "1.0.5",
+    "typechain-target-ethers": "1.0.4",
+    "typechain-target-truffle": "1.0.2",
+    "typechain-target-web3-v1": "1.0.4",
+    "typescript": "^3.7.2"
+  },
+  "author": "Aave",
+  "contributors": [
+    {
+      "name": "Ernesto Boado",
+      "email": "ernesto@aave.com"
+    }
+  ],
+  "license": "AGPL 3.0",
+  "dependencies": {}
+}
