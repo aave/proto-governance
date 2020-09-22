@@ -1,6 +1,6 @@
-Aave Protocol DAO
+Aave Proto Governance
 
-Copyright (C) 2019 Aave
+Copyright (C) 2020 Aave
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
