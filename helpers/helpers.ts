@@ -657,7 +657,7 @@ export const getDevCouncil = async () =>
   );
 
 export const getKovanCouncil = async () => [
-  "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+  "0xD2CC1DDbb5dCd639BDE79438aae7C1ac41e1a446"
 ];
 
 export const getRopstenCouncil = async () => [

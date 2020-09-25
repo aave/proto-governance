@@ -91,16 +91,16 @@ export const getAssetsWeightParamsByNetworkProd = async (
         [0, 0]
       ],
       [eEthereumNetwork.kovan]: [
-        [kovanLENDTokenAddress, kovanALENDTokenAddress],
-        [kovanLENDTokenAssetWeight, kovanALENDTokenAssetWeight]
+        [kovanLendVoteStrategyToken],
+        [kovanLendVoteStrategyTokenWeight]
       ],
       [eEthereumNetwork.ropsten]: [
-        [ropstenLENDTokenAddress, ropstenALENDTokenAddress],
-        [ropstenLENDTokenAssetWeight, ropstenALENDTokenAssetWeight]
+        [ropstenLENDTokenAddress, ropstenALENDTokenAddress], // TODO: change for a voting strategy
+        [ropstenLENDTokenAssetWeight, ropstenALENDTokenAssetWeight] // TODO: change for a voting strategy
       ],
       [eEthereumNetwork.main]: [
-        [mainLENDTokenAddress, mainALENDTokenAddress],
-        [mainLENDTokenAssetWeight, mainALENDTokenAssetWeight]
+        [mainLendVoteStrategyToken],
+        [mainLendVoteStrategyTokenWeight]
       ]
     },
     network
@@ -110,22 +110,6 @@ export const devVotingBlocksDuration = 1660;
 export const devValidatingBlocksDuration = 1660;
 export const devMaxMovesToVotingAllowed = 3;
 
-export const kovanLENDTokenAddress =
-  "0x690eAcA024935Aaff9B14b9FF9e9C8757a281f3C";
-export const kovanLENDTokenAssetWeight = 1;
-
-export const kovanALENDTokenAddress =
-  "0xcBa131C7FB05fe3c9720375cD86C99773faAbF23";
-export const kovanALENDTokenAssetWeight = 1;
-
-export const mainLENDTokenAddress =
-  "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03";
-export const mainLENDTokenAssetWeight = 1;
-
-export const mainALENDTokenAddress =
-  "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8";
-export const mainALENDTokenAssetWeight = 1;
-
 export const ropstenLENDTokenAddress =
   "0xB47F338EC1e3857BB188E63569aeBAB036EE67c6";
 export const ropstenLENDTokenAssetWeight = 1;
@@ -133,6 +117,12 @@ export const ropstenLENDTokenAssetWeight = 1;
 export const ropstenALENDTokenAddress =
   "0xa56c4b678565C9F1Fd35178F94f8CeE043538247";
 export const ropstenALENDTokenAssetWeight = 1;
+
+export const kovanLendVoteStrategyToken = "0x8aca987620760408f116915a0138cbc8981fe32f"
+export const kovanLendVoteStrategyTokenWeight = 1
+
+export const mainLendVoteStrategyToken = "0x0671ca7e039af2cf2d2c5e7f1aa261ae78b3ffdf"
+export const mainLendVoteStrategyTokenWeight = 1
 
 export const getPropositionPowerThresholdByNetworkString = (
   network: eEthereumNetwork

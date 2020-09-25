@@ -21,7 +21,7 @@ if (!process.env.SKIP_TASKS) {
 
 export const BUIDLEREVM_CHAIN_ID = 31337;
 const DEFAULT_BLOCK_GAS_LIMIT = 12500000;
-const DEFAULT_GAS_PRICE = 10;
+const DEFAULT_GAS_PRICE = 50000000000; // 50 gwei
 const HARDFORK = "istanbul";
 const INFURA_KEY = process.env.INFURA_KEY || "";
 const ETHERSCAN_KEY = process.env.ETHERSCAN_KEY || "";
@@ -43,7 +43,7 @@ const getCommonNetworkConfig = (
     }.infura.io/v3/${INFURA_KEY}`,
     hardfork: HARDFORK,
     blockGasLimit: DEFAULT_BLOCK_GAS_LIMIT,
-    gasMultiplier: DEFAULT_GAS_PRICE,
+    gasPrice: DEFAULT_GAS_PRICE,
     chainId: networkId,
     accounts: {
       mnemonic: MNEMONICS[networkName],

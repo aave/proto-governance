@@ -1,4 +1,4 @@
-Aave Proto Governance
+Aave Protocol Governance
 
 Copyright (C) 2020 Aave
 
